@@ -3,3 +3,4 @@ build: off
 test_script:
 - python --version
 - python -c "import multiprocessing; print multiprocessing.cpu_count()"
+- python -c "import multiprocessing; print multiprocessing.num_cpus()"
